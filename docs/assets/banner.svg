@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="176" viewBox="0 0 640 176" role="img" aria-labelledby="sd-banner-title sd-banner-desc">
+  <!-- palette: warm paper and ink from the ledger subject; moss for orphaned blocks and one rust accent on the duplicated-slot bracket. contrast against #F7F3EC: ink #33302B 11.5:1, moss #5E6B5A 5.1:1, rust #9C3D12 6.1:1. motion: the report line under the ribbon types itself during the first part of the loop and then holds, encoding the report being written after the scan; with reduced motion the line is fully visible. every number comes from running the CLI on samples/cluster-window.jsonl. -->
+  <title id="sd-banner-title">SlotDrift banner: the cluster window and its report line</title>
+  <desc id="sd-banner-desc">The SlotDrift wordmark, the 61-slot sample window drawn as one cell per slot with skipped slots pale, orphaned slots in moss and a rust bracket under the duplicated slots, and the real summary line records 64 findings 12 under the ribbon.</desc>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      #sd-type-rect { animation: sd-type 8s steps(30, end) infinite; }
+    }
+    @keyframes sd-type {
+      0% { width: 0; }
+      30% { width: 180; }
+      100% { width: 180; }
