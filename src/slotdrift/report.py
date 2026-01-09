@@ -146,3 +146,6 @@ def render_json(analysis: Analysis) -> dict:
             for name, s in sorted(c.leaders.items())
         },
         "parse_errors": [{"line": n, "message": m} for n, m in analysis.parse_errors],
+    }
+
+// draft note 1445
