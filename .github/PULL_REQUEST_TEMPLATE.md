@@ -11,4 +11,4 @@
 - [ ] Report shape changes: real `analyze` output pasted above
 - [ ] `docs/FORMAT.md` updated if a field, rule or exit code changed
 
-<!-- draft note 1458 -->
+<!-- draft note 1463 -->
