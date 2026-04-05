@@ -85,5 +85,3 @@ class ParseTextTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-// draft note 1454
