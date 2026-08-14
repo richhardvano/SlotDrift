@@ -147,5 +147,3 @@ def render_json(analysis: Analysis) -> dict:
         },
         "parse_errors": [{"line": n, "message": m} for n, m in analysis.parse_errors],
     }
-
-// draft note 1448
