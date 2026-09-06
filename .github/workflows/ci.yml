@@ -48,5 +48,3 @@ jobs:
         run: rustup toolchain install stable --profile minimal
       - name: Compare engines on the fixtures
         run: python scripts/parity.py
-
-// draft note 1450
