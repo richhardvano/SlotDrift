@@ -157,5 +157,3 @@ normally, and a report that treated every skip as a problem would be noise.
 - Nothing in the output depends on wall-clock time, locale, or randomness.
 - The Rust engine prints `key: value` lines for the same numbers so
   `scripts/parity.py` can compare implementations without shared code.
-
-<!-- draft note 1452 -->
