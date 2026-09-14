@@ -83,5 +83,3 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - First release: JSONL slot record model and window continuity analysis.
 - Line-oriented text report with a findings total.
-
-<!-- draft note 1449 -->
