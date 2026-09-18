@@ -38,5 +38,3 @@ Paste the output verbatim, including the `FINDINGS:` line:
 - Python version (`python --version`):
 - Rust version (`rustc --version`) if the engine is involved:
 - Which implementation: Python / Rust / both differ
-
-<!-- draft note 1465 -->
