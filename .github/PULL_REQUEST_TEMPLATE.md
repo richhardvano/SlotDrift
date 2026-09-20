@@ -10,5 +10,3 @@
 - [ ] `python scripts/verify.py` exits 0
 - [ ] Report shape changes: real `analyze` output pasted above
 - [ ] `docs/FORMAT.md` updated if a field, rule or exit code changed
-
-<!-- draft note 1463 -->
