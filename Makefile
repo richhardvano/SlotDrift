@@ -27,5 +27,3 @@ parity:
 clean:
 	$(PYTHON) -c "import shutil, pathlib; [shutil.rmtree(p, ignore_errors=True) for p in pathlib.Path('.').rglob('__pycache__')]"
 	-rm -rf engine/target .pytest_cache
-
-<!-- draft note 1461 -->
