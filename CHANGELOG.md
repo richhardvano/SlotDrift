@@ -10,6 +10,35 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Rule tables are being reorganised for the next patch.
 - The parity fixtures are being extended with a generated case.
 
+## [5.2.0] - 2026-08-31
+
+### Added
+
+- Optional `--epoch` grouping for the leader skip table.
+
+## [4.0.0] - 2026-08-23
+
+### Changed
+
+- The `forks` subcommand prints competing blocks side by side, newest first.
+
+### Added
+
+- `--strict` turns parse warnings into findings so CI can gate on them.
+
+## [3.1.0] - 2026-08-11
+
+### Added
+
+- Per-leader skip streaks in the `leaders` output.
+
+## [2.0.0] - 2026-07-31
+
+### Added
+
+- `analyze --format json` now carries a `window` block with min, max and size.
+- Fixtures for the post-skip parent bridge.
+
 ## [1.0.1] - 2026-06-23
 
 ### Fixed
